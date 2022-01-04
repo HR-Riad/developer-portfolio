@@ -8,7 +8,7 @@ h1{
 span{
     color: orangered;
 }
-section{
+.flexible-container{
     display: flex;
     margin: 130px;
 }
@@ -34,4 +34,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right ;
+}
+.Exprience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.Exp-Goal{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+ 
+}
+#my-goal{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-image-slice: 1;
+}
+#my-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(30deg, #c0c04e, #0c1cca, #7bec1e 20px) 60;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }

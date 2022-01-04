@@ -1,0 +1,31 @@
+body{
+font-family: 'Raleway', sans-serif;
+margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: orangered;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 90%;
+}
+.hire-me-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+}

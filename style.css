@@ -10,6 +10,7 @@ span{
 }
 section{
     display: flex;
+    margin: 130px;
 }
 .half-width{
     width: 50%;
@@ -28,4 +29,9 @@ section{
 }
 .top-banner{
     background-image: url(images/top-banner.png);
+}
+.Career-Objectives{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
 }
